@@ -76,3 +76,5 @@ function checkIsFunction(func) {
     throw new Error("Invalid argument.");
   }
 }
+
+export { customFilter, bubbleSort, storageWrapper };
